@@ -1,0 +1,65 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.random-color-generator-container {
+  display: flex;
+  gap: 10px;
+}
+
+.hex-color-container,
+.rgb-color-container {
+  min-height: 100vh;
+  flex: 1;
+}
+
+.hex-color-container button {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  background-color: rgb(195, 197, 77);
+}
+
+.rgb-color-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 20px;
+}
+.hex-color-container {
+  background-color: green;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.hex-color-value {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.rgb-color-container button {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  background-color: rgb(223, 115, 15);
+}
